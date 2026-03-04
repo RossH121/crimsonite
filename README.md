@@ -1,25 +1,40 @@
+# Crimsonite
 
-Installation information
-=======
+A Minecraft 1.21.1 mod for NeoForge that adds **Crimsonite Ore** — a rare mineral found in deepslate layers that drops Crimsonite Shards, which can be smelted into gold ingots.
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+## What it adds
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+| Content | Description |
+|---|---|
+| Crimsonite Ore | Rare deepslate ore. Requires a stone pickaxe or better to mine. |
+| Crimsonite Shard | Dropped from Crimsonite Ore. Smeltable into a gold ingot. |
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+## Requirements
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+| Dependency | Version |
+|---|---|
+| Minecraft | 1.21.1 |
+| NeoForge | 21.1.x |
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+## Installation
+
+1. Install [NeoForge 21.1.x](https://neoforged.net/) for Minecraft 1.21.1
+2. Download the latest release JAR from the [Releases](https://github.com/RossH121/crimsonite/releases) page
+3. Place the JAR in your `mods/` folder
+
+## Building from source
+
+Requires JDK 21.
+
+```bash
+git clone https://github.com/RossH121/crimsonite.git
+cd crimsonite
+./gradlew build
+```
+
+The built JAR will be in `build/libs/`.
+
+## License
+
+This mod is licensed under the [MIT License](LICENSE).
+The NeoForge MDK template files are covered separately by [TEMPLATE_LICENSE.txt](TEMPLATE_LICENSE.txt).
