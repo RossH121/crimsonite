@@ -1,10 +1,11 @@
 {
     "homepage": "https://github.com/RossH121/crimsonite",
     "1.21.1": {
-        "1.0.0": "Initial release. Adds Crimsonite Ore and Crimsonite Shard."
+        "1.0.0": "Initial release. Adds Crimsonite Ore and Crimsonite Shard.",
+        "1.1.0": "Add ore world generation. Crimsonite Ore now spawns naturally in the overworld between Y=-64 and Y=16."
     },
     "promos": {
-        "1.21.1-latest": "1.0.0",
-        "1.21.1-recommended": "1.0.0"
+        "1.21.1-latest": "1.1.0",
+        "1.21.1-recommended": "1.1.0"
     }
 }
