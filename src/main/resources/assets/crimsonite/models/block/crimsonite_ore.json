@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "crimsonite:block/crimsonite_ore"
+  }
+}

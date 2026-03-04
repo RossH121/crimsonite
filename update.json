@@ -1,0 +1,10 @@
+{
+    "homepage": "https://github.com/RossH121/crimsonite",
+    "1.21.1": {
+        "1.0.0": "Initial release. Adds Crimsonite Ore and Crimsonite Shard."
+    },
+    "promos": {
+        "1.21.1-latest": "1.0.0",
+        "1.21.1-recommended": "1.0.0"
+    }
+}
